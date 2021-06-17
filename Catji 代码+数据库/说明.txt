@@ -1,0 +1,4 @@
+CatjiApi-dev是后端项目（ASP.NET Core API），在装有环境的VS上打开便可。
+Catji-dev是前端项目（Vue），在装有环境的VScode（或其它可用的编辑器）上打开便可。
+
+后端项目内Start.cs文件中ConfigureServices方法的前两行代码控制项目使用本地数据库还是云端数据库（Default为本地、Debug为云端），想使用哪个注释掉另一个便可。
